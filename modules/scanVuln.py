@@ -46,7 +46,6 @@ def SearchGoogle(num,domain):
 			return url_scan
 		else:
 			url_scan=get_urls_google(html)
-			print url_scan
 			return url_scan
 	except Exception as e:
 		print e
@@ -59,7 +58,6 @@ def Searchduckduckgo(domain):
 		for link in links:
 			url_scan.append(str(link))
 		l = len(url_scan)
-		print url_scan
 		if l < 2:
 			print "|----[WARNING] The search hasn't results with 'inurl:.php?id='."
 			return None

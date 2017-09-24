@@ -1,0 +1,8 @@
+pymongo;
+urllib2;
+requests;
+urlparse;
+bs4;
+wikipedia;
+mechanize;
+unidecode;

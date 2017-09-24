@@ -30,7 +30,7 @@ def banner():
                                                                                          
 """
 print "***************************************************************************************"
-print "AUTHORS: Jorge Coronado (aka @JorgeWebsec) | Ramón Bajona | CONTACT: www.quantika14.com
+print "AUTHORS: Jorge Coronado (aka @JorgeWebsec) | Ramón Bajona | CONTACT: www.quantika14.com"
 print "VERSION: 1.0 DATE: 24-09-2017"
 
 def helpi():

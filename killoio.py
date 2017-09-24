@@ -225,11 +225,14 @@ def rank_killoIO(data, var_v, exploit):
 						if links_scan != None:
 							if len(links_scan)>1:
 								type_vul, vulnerb = modules.scanVuln.audit_vulnerability(exploit, links_scan, var_v)
-								if exploit == None and type_vul>0:
-									for i in range(len(type_vul)):
-										link_dict["vuln."+type_vul[i]]=vulnerb[i]
-								elif exploit != None:
-									link_dict["vuln."+type_vul]=vulnerb
+								try:
+									if exploit == None and type_vul>0:
+										for i in range(len(type_vul)):
+											link_dict["vuln."+type_vul[i]]=vulnerb[i]
+									elif exploit != None:
+										link_dict["vuln."+type_vul]=vulnerb
+								except:
+									pass
 							else:
 								pass
 						#INSERT INTO DB 

@@ -1,8 +1,6 @@
 pymongo;
-urllib2;
 requests;
-urlparse;
-bs4;
+beautifulsoup4;
 wikipedia;
 mechanize;
 unidecode;

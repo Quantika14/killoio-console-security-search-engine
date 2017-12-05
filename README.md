@@ -19,6 +19,7 @@ Version: 1.1
 # Thanks
 + Thanks for your code for payloads https://github.com/souviik/NetSecure
 + Thanks PyConEs 2017 for accepting our talk https://2017.es.pycon.org/es/schedule/killoio-el-google-espanol-creado-en-python/
++ Thanks to @Enelpc for the Parameterfuzz (http://www.enelpc.com/p/parameterfuzz.html) dictionaries
 
 # Authors
 - Jorge Coronado (aka @JorgeWebsec)

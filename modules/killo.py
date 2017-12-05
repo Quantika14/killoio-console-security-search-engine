@@ -40,7 +40,8 @@ def get_domain(url):
 	try:
 		global list_domain
 		parsed_uri = urlparse(url)
-		domain = '{uri.scheme}://{uri.netloc}/'.format(uri=parsed_uri)	
+		domain = '{uri.scheme}://{uri.netloc}/'.format(uri=parsed_uri)
+		domain = domain.split("/")[2]
 		return domain
 	except:
 		return None

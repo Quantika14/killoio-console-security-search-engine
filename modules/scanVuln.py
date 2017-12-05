@@ -42,8 +42,9 @@ def SearchGoogle(num,domain):
 			print "            OR you can use the proxy list OR  we recommend using VPN"
 			print ""
 			print "|----[INFO] Search with Duck Duck Go..."
-			url_scan=Searchduckduckgo(domain)
-			return url_scan
+			#url_scan=Searchduckduckgo(domain)
+			print "hola"
+			return None#url_scan
 		else:
 			url_scan=get_urls_google(html)
 			return url_scan
